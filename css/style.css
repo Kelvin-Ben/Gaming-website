@@ -1,0 +1,98 @@
+body {
+  font-family: 'helvetica', 'sans-serif';
+  margin: 0;
+}
+/* Global style */
+h1, h2, h3, h4, h5,h6 {
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 0.5em 0;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2.0em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.4em;
+}
+h5, h6 {
+  font-size: 1.3em;
+}
+a {
+  text-decoration: none;
+}
+p, label, strong {
+  line-height: 2em;
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+.flex {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+}
+.badge {
+  padding: 9px 20px;
+  color: #eee;
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  text-align: center;
+}
+.badge.new {
+  background-color: #ff205f;
+}
+.badge.strategy {
+  background-color: #4eae60;
+}
+.badge.racing {
+  background-color: #694eae;
+}
+.badge.role, .badge.adventure {
+  background-color: #4babf5;
+}
+.badge.tournaments {
+  background-color: #fb6c10;
+}
+.badge.premium_tournament {
+  background-color: #ffb320;
+  color: #252525;
+}
+.shade {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /* background: rgba(0, 0, 0, 0.7); */
+}
+/* End of global styles */
+
+/* Header styles */
+header {
+  background-color: #131313;
+  position: relative;
+  padding: 76px 0;
+  border-bottom: 1px solid #ffb320;
+}
+
+.hamburger_menu {
+  display: none;
+  padding: 3px 5px;
+  background-color: transparent;
+  border: 1px solid #ffb320;
+  cursor: pointer;
+
+}
+.hamburger_menu
+/* End of header styles */
