@@ -74,7 +74,7 @@ p, label, strong {
   top: 0;
   left: 0;
   z-index: 1;
-  /* background: rgba(0, 0, 0, 0.7); */
+  /* background: rgba(0, 0, 0, 0.3); */
 }
 /* End of global styles */
 
@@ -92,7 +92,113 @@ header {
   background-color: transparent;
   border: 1px solid #ffb320;
   cursor: pointer;
+  width: 30px;
 
 }
-.hamburger_menu
+.hamburger_menu {
+  display: block;
+  height: 1px;
+  background-color: #ffb320;
+  margin: 4px 0;
+}
+nav ul li  {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 18px;
+}
+nav ul li a {
+  color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: #ffb320;
+}
+#login_register_button {
+  background-color: #ffb320;
+  border-radius: 20px;
+  color: #131313;
+  padding: 10px 15px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
 /* End of header styles */
+
+/* style hero section */
+#hero_image {
+  background: url(../images/traitor.jpg) top center no-repeat;
+  height: 820px;
+}
+.hero_marketing-text {
+  max-width: 1200px;
+  margin: -30px auto 0;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+}
+.hero_marketing-text h1 {
+  color: #eee;
+  font-size: 3.5em;
+  font-weight: 300;
+  margin: 0.5em 0;
+}
+.hero_marketing-text span {
+  color: #ffb320;
+}
+.hero_marketing-text p {
+  color: #eee;
+  font-size: 00.85em;
+  font-weight: 300;
+  max-width: 500px;
+  line-height: 2;
+  margin-bottom: 2.5em;
+}
+.hero_marketing-text button {
+  background-color: #ffb320;
+  border-radius: 20px;
+  font-size: 00.85em;
+  padding: 15px 25px;
+  color: #131313;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+
+}
+/* End style hero section */
+/* news section styles */
+#latest_news {
+  margin-bottom: 75px;
+}
+#latest_news .flex {
+  justify-content: flex-start;
+  max-width: 100%;
+  padding: 0;
+}
+#latest_news .flex h5 {
+  flex-basis: 25%;
+  background-color: #ffb320;
+  padding: 25px;
+  margin: 0;
+  text-align: right;
+  color: #eee;
+  font-size: 1.2em;
+}
+.latest_news_item {
+  display: flex;
+  align-items: center;
+}
+#latest_news_container {
+  background-color: #131313;
+  flex-basis: 75%;
+  padding: 25px;
+  position: relative;
+}
+#latest_news_container .badge {
+  margin: 25px;
+}
+#latest_news_container .latest_news_text {
+  color: #eee;
+}
+/* End news section styles */
