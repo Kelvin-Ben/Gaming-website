@@ -248,3 +248,39 @@ nav ul li a:hover {
 }
 
 /*End of game types styles */
+/* recent games styles */
+#recent_games {
+  background: url(../images/traitor.jpg) top center no-repeat;
+  background-color: #ccf2f6;
+  border-top: 1px solid #d6dee7;
+  border-bottom: 1px solid #d6dee7;
+  padding: 70px 0 120px;
+}
+#recent_games h2 {
+  text-align: center;
+}
+#recent_games .box {
+  flex-basis: 31%;
+  background-color: #ffff;
+  position: relative;
+}
+#recent_games .badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+#recent_games .box img {
+  width: 100%;
+}
+#recent_games .box_lower_section {
+  padding: 20px;
+}
+#recent_games .box_lower_section p {
+  color: #999;
+}
+#recent_games .box_lower_section a {
+  color: #999;
+  font-size: 0.8em;
+}
+/* End recent games styles */
