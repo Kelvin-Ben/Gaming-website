@@ -74,7 +74,7 @@ p, label, strong {
   top: 0;
   left: 0;
   z-index: 1;
-  /* background: rgba(0, 0, 0, 0.3); */
+  background: rgba(0, 0, 0, 0.7);
 }
 /* End of global styles */
 
@@ -126,7 +126,7 @@ nav ul li a:hover {
 
 /* style hero section */
 #hero_image {
-  background: url(../images/traitor.jpg) top center no-repeat;
+  background: url(../images/transformers.jpg) top center no-repeat;
   height: 820px;
 }
 .hero_marketing-text {
@@ -202,3 +202,49 @@ nav ul li a:hover {
   color: #eee;
 }
 /* End news section styles */
+/* game types styles */
+#game_type_boxes {
+  margin-bottom: 75px;
+}
+#game_type_boxes .box {
+  flex-basis: 25%;
+  position: relative;
+  height: 380px;
+}
+#game_type_boxes .box.new {
+  background: url(../images/war.jpg) top center no-repeat;
+  background-size: cover;
+}
+#game_type_boxes .box.strategy {
+  background: url(../images/fantasy.jpg) top center no-repeat;
+  background-size: cover;
+}
+#game_type_boxes .box.playing {
+  background: url(../images/giant.jpg) top center no-repeat;
+  background-size: cover;
+}
+#game_type_boxes .box.racing {
+  background: url(../images/gta.jpg) top center no-repeat;
+  background-size: cover;
+}
+#game_type_boxes .box .badge {
+  position: relative;
+  top: 20px;
+  left: 15px;
+  z-index: 2;
+}
+#game_type_boxes .box .content {
+  position: absolute;
+  padding: 0 35px 0 25px;
+  left: 0;
+  color: #eee;
+  bottom: 20px;
+  z-index: 2;
+}
+#game_type_boxes .box .content a {
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #999;
+}
+
+/*End of game types styles */
