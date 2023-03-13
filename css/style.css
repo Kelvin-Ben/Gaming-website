@@ -284,3 +284,106 @@ nav ul li a:hover {
   font-size: 0.8em;
 }
 /* End recent games styles */
+
+/* tournament styles */
+#tournaments {
+  background: url(../images/74181.png) 0 0 repeat;
+  padding: 123px 0 105px;
+}
+#tournaments .flex {
+  position: relative;
+}
+#tournaments .badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#tournaments .badge.tournaments {
+  top: -32px;
+  left: 15px;
+}
+#tournaments .box {
+  background-color: #252525;
+  padding: 70px 20px 40px;
+  flex-basis: 45%;
+  position: relative;
+}
+#tournaments  .box .tournament_image {
+  float: left;
+  width: 30%;
+}
+#tournaments  .box .tournament_image img {
+  width: 100%;
+}
+#tournaments .box .tournament_content {
+  width: 60%;
+  float: left;
+  margin-left: 25px;
+}
+#tournaments .box .tournament_content h2 {
+  color: #ffb320;
+  margin-top: 0;
+}
+#tournaments .box .tournament_content label {
+  font-size: 00.75em;
+  color: #999;
+}
+#tournaments .box .tournament_content .prizes {
+  color: #ffb320;
+  display: inline-block;
+  margin-top: 12px;
+}
+#tournaments .box .tournament_content strong {
+  color: #eee;
+  margin-left: 10px;
+}
+/*End tournament styles */
+
+/* recent reviews styles */
+#recent_reviews {
+  background: url(../images/106141.jpg) top right no-repeat;
+  background-size: cover;
+  padding: 75px 0 30px;
+}
+#recent_reviews h1 {
+  text-align: center;
+  margin-bottom: 1.65em;
+}
+#recent_reviews .box {
+  flex-basis: 25%;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+#recent_reviews .box .rating_badge {
+  border-radius: 50px;
+  padding: 13px;
+  font-size: 1.1em;
+  color: #eee;
+  font-weight: 600;
+  background-color: #ffb320;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+#recent_reviews .box .rating_badge.purple {
+  background-color: #694eae;
+}
+#recent_reviews .box .rating_badge.green {
+  background-color: #4eae60;
+}
+#recent_reviews .box .rating_badge.violet {
+  background-color: violet;
+}
+#recent_reviews .box .recent_review_image {
+  margin-bottom: 0.75em;
+  overflow: hidden;
+}
+#recent_reviews .box .recent_review_image img {
+  width: 100%;
+}
+#recent_reviews .box p {
+  color: #999;
+}
+/* End recent reviews styles */
