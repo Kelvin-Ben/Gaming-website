@@ -87,21 +87,25 @@ header {
   padding: 76px 0;
   border-bottom: 1px solid #ffb320;
 }
-
-.hamburger_menu {
-  display: none;
-  padding: 3px 5px;
-  background-color: transparent;
-  border: 1px solid #ffb320;
-  cursor: pointer;
-  width: 30px;
-
+.logo {
+  color: #eee;
+}
+.logo span {
+  color: #ffb320;
 }
 .hamburger_menu {
   display: block;
-  height: 1px;
+  border: 1px solid #ffb320;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+.strip {
+  display: block;
+  width: 30px;
+  height: 3px;
   background-color: #ffb320;
-  margin: 4px 0;
+  margin: 5px auto;
 }
 nav ul li  {
   display: inline-block;
@@ -123,6 +127,26 @@ nav ul li a:hover {
   padding: 10px 15px;
   font-size: 0.85em;
   font-weight: 600;
+}
+
+.show {
+  display: block;
+  margin-bottom: 100px;
+  background-color: #252525;
+  border: none;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  transition: top 0.6s ease-in-out;
+}
+.close .strip:nth-child(1) {
+  transform: rotate(45deg) translate(7px, 7px);
+}
+.close .strip:nth-child(2) {
+  opacity: 0;
+}
+.close .strip:nth-of-type(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
 }
 /* End of header styles */
 
@@ -167,6 +191,9 @@ nav ul li a:hover {
   border: none;
   cursor: pointer;
 
+}
+.marketing-text {
+  top: 500px;
 }
 /* End style hero section */
 /* news section styles */
@@ -608,6 +635,10 @@ footer ul li a {
 }
 /* end 991px */
 @media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
   h4 {
     font-size: 1.2em;
   }
@@ -650,5 +681,12 @@ footer ul li a {
   #latest_news-container {
     flex-basis: 100%;
   }
+}
+@media screen and (min-width: 768px) {
+  .hamburger_menu {
+    display: none;
+    transition: 0.3s ease-in-out;
+  }
+
 }
 /* end media queries */
