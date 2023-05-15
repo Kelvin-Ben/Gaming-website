@@ -19,7 +19,21 @@ This is a website dedicated to gaming, where users can view a list of games, rea
 
 ## Live Demo
   will be available [soon]()
-  
+## Installation
+
+- All the `code` required to get started
+- Images of what it should look like
+
+### Clone
+
+- Clone this repo to your local machine using ``
+
+### Setup
+> now install npm packages
+
+```shell
+$ npm install
+```
  ## Author
 
 👤 Kelvin Benjamin
