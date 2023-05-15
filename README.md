@@ -1,3 +1,5 @@
+![IMG_20210430_165321 (3)](https://github.com/Kelvin-Ben/Gaming-website/assets/85459676/b32935f0-c2b6-4f99-a5ae-e4ac3311fca9)
+
 # Gaming-website
 This is a website dedicated to gaming, where users can view a list of games, read reviews, and participate in discussions through posts and comments. The website is built using HTML and CSS, and is designed to be intuitive and easy to navigate.
 
