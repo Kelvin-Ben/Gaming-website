@@ -26,7 +26,7 @@ This is a website dedicated to gaming, where users can view a list of games, rea
 
 ### Clone
 
-- Clone this repo to your local machine using ``
+- Clone this repo to your local machine using ```git clone git@github.com:Kelvin-Ben/Gaming-website.git```
 
 ### Setup
 > now install npm packages
