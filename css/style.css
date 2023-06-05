@@ -1,32 +1,48 @@
 body {
-  font-family: 'helvetica', 'sans-serif';
+  font-family: "helvetica", "sans-serif";
   margin: 0;
 }
+
 /* Global style */
-h1, h2, h3, h4, h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.5;
   font-weight: 300;
   margin: 0.5em 0;
 }
+
 h1 {
   font-size: 2.5em;
 }
+
 h2 {
-  font-size: 2.0em;
+  font-size: 2em;
 }
+
 h3 {
   font-size: 1.5em;
 }
+
 h4 {
   font-size: 1.4em;
 }
-h5, h6 {
+
+h5,
+h6 {
   font-size: 1.3em;
 }
+
 a {
   text-decoration: none;
 }
-p, label, strong {
+
+p,
+label,
+strong {
   line-height: 2em;
   font-size: 0.85em;
   font-weight: 300;
@@ -41,6 +57,7 @@ p, label, strong {
   padding: 0 15px;
   justify-content: space-between;
 }
+
 .badge {
   padding: 9px 20px;
   color: #eee;
@@ -50,25 +67,33 @@ p, label, strong {
   font-size: 0.75em;
   text-align: center;
 }
+
 .badge.new {
   background-color: #ff205f;
 }
+
 .badge.strategy {
   background-color: #4eae60;
 }
+
 .badge.racing {
   background-color: #694eae;
 }
-.badge.role, .badge.adventure {
+
+.badge.role,
+.badge.adventure {
   background-color: #4babf5;
 }
+
 .badge.tournaments {
   background-color: #fb6c10;
 }
+
 .badge.premium_tournament {
   background-color: #ffb320;
   color: #252525;
 }
+
 .shade {
   position: absolute;
   width: 100%;
@@ -78,6 +103,7 @@ p, label, strong {
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
 }
+
 /* End of global styles */
 
 /* Header styles */
@@ -87,19 +113,22 @@ header {
   padding: 76px 0;
   border-bottom: 1px solid #ffb320;
 }
+
 .logo {
   color: #eee;
 }
+
 .logo span {
   color: #ffb320;
 }
+
 .hamburger_menu {
   display: block;
   border: 1px solid #ffb320;
   background-color: transparent;
   cursor: pointer;
-
 }
+
 .strip {
   display: block;
   width: 30px;
@@ -107,19 +136,23 @@ header {
   background-color: #ffb320;
   margin: 5px auto;
 }
-nav ul li  {
+
+nav ul li {
   display: inline-block;
   font-size: 1em;
   margin: 0 18px;
 }
+
 nav ul li a {
   color: #eee;
   font-weight: 600;
   cursor: pointer;
 }
+
 nav ul li a:hover {
   color: #ffb320;
 }
+
 #login_register_button {
   background-color: #ffb320;
   border-radius: 20px;
@@ -139,15 +172,19 @@ nav ul li a:hover {
   height: fit-content;
   transition: top 0.6s ease-in-out;
 }
+
 .close .strip:nth-child(1) {
   transform: rotate(45deg) translate(7px, 7px);
 }
+
 .close .strip:nth-child(2) {
   opacity: 0;
 }
+
 .close .strip:nth-of-type(3) {
   transform: rotate(-45deg) translate(4px, -4px);
 }
+
 /* End of header styles */
 
 /* style hero section */
@@ -155,6 +192,7 @@ nav ul li a:hover {
   background: url(../images/transformers.jpg) top center no-repeat;
   height: 820px;
 }
+
 .hero_marketing-text {
   max-width: 1200px;
   margin: -30px auto 0;
@@ -164,15 +202,18 @@ nav ul li a:hover {
   right: 0;
   padding: 0 20px;
 }
+
 .hero_marketing-text h1 {
   color: #eee;
   font-size: 3.5em;
   font-weight: 300;
   margin: 0.5em 0;
 }
+
 .hero_marketing-text span {
   color: #ffb320;
 }
+
 .hero_marketing-text p {
   color: #eee;
   font-size: 00.85em;
@@ -181,6 +222,7 @@ nav ul li a:hover {
   line-height: 2;
   margin-bottom: 2.5em;
 }
+
 .hero_marketing-text button {
   background-color: #ffb320;
   border-radius: 20px;
@@ -190,21 +232,25 @@ nav ul li a:hover {
   font-weight: 600;
   border: none;
   cursor: pointer;
-
 }
+
 .marketing-text {
   top: 500px;
 }
+
 /* End style hero section */
+
 /* news section styles */
 #latest_news {
   margin-bottom: 75px;
 }
+
 #latest_news .flex {
   justify-content: flex-start;
   max-width: 100%;
   padding: 0;
 }
+
 #latest_news .flex h5 {
   flex-basis: 25%;
   background-color: #ffb320;
@@ -217,54 +263,67 @@ nav ul li a:hover {
   color: #eee;
   font-size: 1.2em;
 }
+
 .latest_news_item {
   display: flex;
   align-items: center;
 }
+
 #latest_news_container {
   background-color: #131313;
   flex-basis: 75%;
   padding: 25px;
   position: relative;
 }
+
 #latest_news_container .badge {
   margin: 25px;
 }
+
 #latest_news_container .latest_news_text {
   color: #eee;
 }
+
 /* End news section styles */
+
 /* game types styles */
 #game_type_boxes {
   margin-bottom: 75px;
 }
+
 #game_type_boxes .box {
   flex-basis: 25%;
   position: relative;
   height: 380px;
 }
+
 #game_type_boxes .box.new {
   background: url(../images/war.jpg) top center no-repeat;
   background-size: cover;
 }
+
 #game_type_boxes .box.strategy {
   background: url(../images/fantasy.jpg) top center no-repeat;
   background-size: cover;
 }
+
 #game_type_boxes .box.playing {
   background: url(../images/giant.jpg) top center no-repeat;
   background-size: cover;
 }
+
 #game_type_boxes .box.racing {
   background: url(../images/gta.jpg) top center no-repeat;
   background-size: cover;
 }
+
 #game_type_boxes .box .badge {
   position: relative;
   top: 20px;
   left: 15px;
   z-index: 2;
 }
+
 #game_type_boxes .box .content {
   position: absolute;
   padding: 0 35px 0 25px;
@@ -273,13 +332,15 @@ nav ul li a:hover {
   bottom: 20px;
   z-index: 2;
 }
+
 #game_type_boxes .box .content a {
   font-size: 0.8em;
   font-weight: 300;
   color: #999;
 }
 
-/*End of game types styles */
+/* End of game types styles */
+
 /* recent games styles */
 #recent_games {
   background: url(../images/traitor.jpg) top center no-repeat;
@@ -288,33 +349,41 @@ nav ul li a:hover {
   border-bottom: 1px solid #d6dee7;
   padding: 70px 0 120px;
 }
+
 #recent_games h2 {
   text-align: center;
 }
+
 #recent_games .box {
   flex-basis: 31%;
   background-color: #ffff;
   position: relative;
 }
+
 #recent_games .badge {
   position: absolute;
   top: 20px;
   left: 20px;
   z-index: 2;
 }
+
 #recent_games .box img {
   width: 100%;
 }
+
 #recent_games .box_lower_section {
   padding: 20px;
 }
+
 #recent_games .box_lower_section p {
   color: #999;
 }
+
 #recent_games .box_lower_section a {
   color: #999;
   font-size: 0.8em;
 }
+
 /* End recent games styles */
 
 /* tournament styles */
@@ -322,55 +391,67 @@ nav ul li a:hover {
   background: url(../images/74181.png) 0 0 repeat;
   padding: 123px 0 105px;
 }
+
 #tournaments .flex {
   position: relative;
 }
+
 #tournaments .badge {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
 }
+
 #tournaments .badge.tournaments {
   top: -32px;
   left: 15px;
 }
+
 #tournaments .box {
   background-color: #252525;
   padding: 70px 20px 40px;
   flex-basis: 45%;
   position: relative;
 }
-#tournaments  .box .tournament_image {
+
+#tournaments .box .tournament_image {
   float: left;
   width: 30%;
 }
-#tournaments  .box .tournament_image img {
+
+#tournaments .box .tournament_image img {
   width: 100%;
 }
+
 #tournaments .box .tournament_content {
   width: 60%;
   float: left;
   margin-left: 25px;
 }
+
 #tournaments .box .tournament_content h2 {
   color: #ffb320;
   margin-top: 0;
 }
+
 #tournaments .box .tournament_content label {
   font-size: 00.75em;
   color: #999;
 }
+
 #tournaments .box .tournament_content .prizes {
   color: #ffb320;
   display: inline-block;
   margin-top: 12px;
 }
+
 #tournaments .box .tournament_content strong {
   color: #eee;
   margin-left: 10px;
 }
-/*End tournament styles */
+
+/* End tournament styles */
 
 /* recent reviews styles */
 #recent_reviews {
@@ -378,16 +459,20 @@ nav ul li a:hover {
   background-size: cover;
   padding: 75px 0 30px;
 }
+
 #recent_reviews h1 {
   text-align: center;
   margin-bottom: 1.65em;
 }
+
 #recent_reviews .box {
   flex-basis: 23%;
   position: relative;
   text-align: center;
+
   /* padding: 20px; */
 }
+
 #recent_reviews .box .rating_badge {
   border-radius: 50px;
   padding: 13px;
@@ -399,50 +484,63 @@ nav ul li a:hover {
   top: -30px;
   left: 30px;
 }
+
 #recent_reviews .box .rating_badge.purple {
   background-color: #694eae;
 }
+
 #recent_reviews .box .rating_badge.green {
   background-color: #4eae60;
 }
+
 #recent_reviews .box .rating_badge.violet {
   background-color: violet;
 }
+
 #recent_reviews .box .recent_review_image {
   margin-bottom: 0.75em;
   overflow: hidden;
 }
+
 #recent_reviews .box .recent_review_image img {
   width: 100%;
 }
+
 #recent_reviews .box p {
   color: #999;
 }
+
 /* End recent reviews styles */
+
 /* post comments styles */
 #post_comments {
   background: url(../images/394749.jpg) 0 0 no-repeat;
   padding: 75px 0;
 }
+
 #post_comments .game_warrior {
   flex-basis: 32%;
   position: relative;
 }
+
 #post_comments .game_warrior p {
   color: #eee;
   font-weight: 600;
 }
+
 #post_comments .game_warrior h1 {
   color: #eee;
 }
+
 #post_comments .game_warrior span {
   color: #ffb320;
   margin-bottom: 0.5em;
 }
+
 /* #post_comments .game_warrior img.footer_graphic {
   position: absolute;
   margin-bottom: 0;
- width: 115%; 
+ width: 115%;
 } */
 #post_comments .posts_comments_box {
   flex-basis: 28%;
@@ -450,39 +548,48 @@ nav ul li a:hover {
   padding: 20px 20px 25px;
   border: 1px solid #4a4a4a4a;
 }
+
 #post_comments .posts_comments_box h2 {
   color: #eee;
 }
+
 .post_item {
   margin-top: 25px;
 }
+
 .post_item:first-child {
   margin-top: 0;
 }
+
 .post_item::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
+
 .post_item img {
   float: left;
   width: 30%;
 }
-.post_item > div{
+
+.post_item > div {
   float: left;
   margin-left: 5%;
   width: 65%;
 }
+
 .post_item > div span {
   color: #ffb320;
   margin-top: 0;
   font-size: 0.8em;
 }
+
 .post_item > div p {
   color: #eee;
   margin: 5px;
   font-size: 0.8em;
 }
+
 .post_item > div small {
   color: #9999;
   font-size: 0.75em;
@@ -491,6 +598,7 @@ nav ul li a:hover {
 .comments_item {
   margin-top: 1em;
 }
+
 .comments_item:first-child {
   margin-top: 0;
 }
@@ -500,31 +608,38 @@ nav ul li a:hover {
   display: table;
   clear: both;
 }
+
 .comments_item img {
   width: 23%;
   height: auto;
   border-radius: 50%;
   float: left;
 }
+
 .comments_item > div {
   float: left;
   margin-left: 7%;
   width: 70%;
 }
-.comments_item > div p  {
+
+.comments_item > div p {
   color: #eee;
   font-size: 0.8em;
   margin: 0 0 5px;
 }
+
 .comments_item > div p span {
   color: #999;
 }
+
 .comments_item > div p span.author {
   color: #f92159;
 }
+
 .comments_item > div h5 {
   color: #ffb320;
 }
+
 /* End post comments styles */
 
 /* start footer styles */
@@ -532,108 +647,132 @@ footer {
   background-color: #252525;
   padding: 25px 0 20px;
 }
+
 footer small {
   color: #ddd;
   font-size: 0.9em;
 }
-footer small a {
-  color: #007BDC;
 
+footer small a {
+  color: #007bdc;
 }
+
 footer ul {
   list-style-type: none;
   margin: 0;
 }
+
 footer ul li {
   display: inline-block;
   margin: 0;
 }
+
 footer ul li a {
   color: #ddd;
   font-size: 0.8rem;
 }
+
 /* end footer styles */
+
 /* start media queries */
 @media screen and (max-width: 1200px) {
   .flex {
     max-width: 1000px;
   }
+
   .latest_news_item {
     font-size: 0.8em;
   }
+
   #tournaments .box .tournament_content h3 {
     font-size: 1.4em;
     margin-bottom: 0.2em;
   }
-@media screen and (max-width: 991px) {
-  .flex {
-    max-width: 728px;
-  }
-  nav ul li {
-    margin: 0 12px;
-    font-size: 0.85em;
-  }
-  #latest-news .flex h5 {
-    width: 15%;
 
-  }
-  #game-types-boxes .box {
-    flex-basis: 50%;
-  }
-  #tournaments .box {
-    flex-basis: 42%;
-  }
-  #tournament .box .tournaments-image {
-    float: none;
-    width: 100%;
-    margin-bottom: 10px;
-    height: 250px;
-    overflow: hidden;
-  }
-  #tournaments .box .tournament_content {
-    margin-left: 0;
-    width: 100%;
-  }
-  #recent_reviews {
-    background: none;
-  }
-  #recent_reviews .flex {
-    flex-wrap: wrap;
-  }
-  #recent_reviews .box {
-    flex-basis: 48%;
-    margin-bottom: 45px;
-  }
-  #posts-comments .flex {
-    flex-wrap: wrap;
-  }
-  #posts-comments .game_warrior {
-    flex-basis: 100%;
-    margin-bottom: 40px;
-  }
-  #posts-comments .posts-comments-box {
-    flex-basis: 43%;
-  }
-  #posts-comments .game_warrior img.footer-graphic {
-    display: none;
-  }
-  footer .flex {
-    flex-wrap: wrap-reverse;
-  }
-  footer small {
-    flex-basis: 100%;
-    font-size: 0.75em;
-    text-align: center;
-    margin-top: 20px;
-    line-height: 1.5;
-  }
-  footer ul {
-    flex-basis: center;
-    text-align: center;
-    padding: 0;
+  @media screen and (max-width: 991px) {
+    .flex {
+      max-width: 728px;
+    }
+
+    nav ul li {
+      margin: 0 12px;
+      font-size: 0.85em;
+    }
+
+    #latest-news .flex h5 {
+      width: 15%;
+    }
+
+    #game-types-boxes .box {
+      flex-basis: 50%;
+    }
+
+    #tournaments .box {
+      flex-basis: 42%;
+    }
+
+    #tournament .box .tournaments-image {
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+      height: 250px;
+      overflow: hidden;
+    }
+
+    #tournaments .box .tournament_content {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    #recent_reviews {
+      background: none;
+    }
+
+    #recent_reviews .flex {
+      flex-wrap: wrap;
+    }
+
+    #recent_reviews .box {
+      flex-basis: 48%;
+      margin-bottom: 45px;
+    }
+
+    #posts-comments .flex {
+      flex-wrap: wrap;
+    }
+
+    #posts-comments .game_warrior {
+      flex-basis: 100%;
+      margin-bottom: 40px;
+    }
+
+    #posts-comments .posts-comments-box {
+      flex-basis: 43%;
+    }
+
+    #posts-comments .game_warrior img.footer-graphic {
+      display: none;
+    }
+
+    footer .flex {
+      flex-wrap: wrap-reverse;
+    }
+
+    footer small {
+      flex-basis: 100%;
+      font-size: 0.75em;
+      text-align: center;
+      margin-top: 20px;
+      line-height: 1.5;
+    }
+
+    footer ul {
+      text-align: center;
+      padding: 0;
+    }
   }
 }
-}
+
 /* end 991px */
 @media screen and (max-width: 768px) {
   .logo {
@@ -643,9 +782,11 @@ footer ul li a {
   h4 {
     font-size: 1.2em;
   }
+
   .flex {
     max-width: 540px;
   }
+
   nav ul {
     display: none;
     position: absolute;
@@ -657,35 +798,44 @@ footer ul li a {
     margin: 0;
     z-index: 1;
   }
+
   nav ul li {
     display: block;
     padding: 15px 0 15px 20px;
     border-bottom: 1px solid #ffb320;
     margin: 0;
   }
+
   nav ul li a {
     font-size: 1em;
   }
+
   .hamburger_menu {
     display: block;
     margin-top: 2px;
   }
+
   .hero_marketing-text {
     margin-top: -85px;
   }
+
   .hero_marketing-text h1 {
     font-size: 2.5em;
   }
+
   #latest-news .flex {
     margin-top: 10px;
   }
+
   #latest-news .flex h5 {
     display: flex;
     height: 152px;
   }
+
   #latest_news-container {
     flex-basis: 100%;
   }
+
   .latest_news_item {
     padding: 0;
     display: flex;
@@ -693,15 +843,56 @@ footer ul li a {
     align-items: center;
     height: 82px;
   }
+
   #latest_news_container .badge {
     margin: 0;
   }
+  
+  #game_type_boxes .flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flex .content h4 {
+    font-size: 18px;
+    line-height: 1.5rem;
+  }
+  #recent_games {
+    background: url(../images/510365.jpg);
+    min-height: 600px;
+    /* border: 2px solid red; */
+  }
+  #recent_games h2 span {
+    color: #ffb320;
+  }
+  #recent_games .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  #recent_games .flex .box {
+    margin-bottom: 25px;
+    border-radius: 8px;
+  }
+  #tournaments .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  #tournaments .tournaments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #tournaments .flex .box {
+    margin-top: 20px;
+    border-radius: 8px;
+  }
 }
+
 @media screen and (min-width: 768px) {
   .hamburger_menu {
     display: none;
     transition: 0.3s ease-in-out;
   }
-
 }
+
 /* end media queries */
