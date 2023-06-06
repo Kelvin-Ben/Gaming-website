@@ -515,12 +515,13 @@ nav ul li a:hover {
 /* post comments styles */
 #post_comments {
   background: url(../images/394749.jpg) 0 0 no-repeat;
-  padding: 75px 0;
+  padding-top: 75px;
 }
 
 #post_comments .game_warrior {
   flex-basis: 32%;
   position: relative;
+  text-align: center;
 }
 
 #post_comments .game_warrior p {
@@ -550,12 +551,11 @@ nav ul li a:hover {
 }
 
 #post_comments .posts_comments_box h2 {
+  text-align: center;
   color: #eee;
+  text-decoration: underline 0.01rem solid #eee;
 }
 
-.post_item {
-  margin-top: 25px;
-}
 
 .post_item:first-child {
   margin-top: 0;
@@ -643,35 +643,37 @@ nav ul li a:hover {
 /* End post comments styles */
 
 /* start footer styles */
-footer {
+.footer {
   background-color: #252525;
   padding: 25px 0 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #eee;
 }
-
-footer small {
-  color: #ddd;
-  font-size: 0.9em;
+.contact-info p {
+  margin-bottom: 5px;
+  font-size: 14px;
 }
-
-footer small a {
-  color: #007bdc;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-footer ul li {
+.social-media a {
   display: inline-block;
-  margin: 0;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #eee;
 }
-
-footer ul li a {
-  color: #ddd;
-  font-size: 0.8rem;
+.social-media a:hover{
+  color: #ffb320;
 }
-
+.footer .flex p {
+  font-size: 14px;
+  /* font-style: italic; */
+  font-family: Verdana;
+}
+.flex div p a:hover {
+  color: #ffb320;
+}
+.footer_heart {
+  color: red;
+}
 /* end footer styles */
 
 /* start media queries */
@@ -876,15 +878,27 @@ footer ul li a {
     display: flex;
     flex-direction: column;
   }
-  #tournaments .tournaments {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+ 
+  #tournaments .badge.tournaments {
+   border: 1px solid red;
   }
   #tournaments .flex .box {
     margin-top: 20px;
     border-radius: 8px;
+  }
+  #recent_reviews .flex .box {
+    background-color: #252422;
+  }
+  #recent_reviews .flex .box .content h4 {
+    color: #ffb320;
+  }
+  #post_comments .game_warrior {
+    font-size: .78rem;
+  }
+  #post_comments .game_warrior p {
+    font-size: 12px;
+    line-height: 1.2rem;
+    padding: 5px;
   }
 }
 
@@ -892,6 +906,15 @@ footer ul li a {
   .hamburger_menu {
     display: none;
     transition: 0.3s ease-in-out;
+  }
+  #post_comments #one, #two{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    gap: 20px;
+    margin-top: 20px;
   }
 }
 
