@@ -313,7 +313,7 @@ nav ul li a:hover {
 }
 
 #game_type_boxes .box.racing {
-  background: url(../images/gta.jpg) top center no-repeat;
+  background: url(../images/30601.jpg) top center no-repeat;
   background-size: cover;
 }
 
@@ -343,8 +343,8 @@ nav ul li a:hover {
 
 /* recent games styles */
 #recent_games {
-  background: url(../images/traitor.jpg) top center no-repeat;
-  background-color: #ccf2f6;
+  /* background: url(../images/traitor.jpg) top center no-repeat; */
+  background-color: #252525;
   border-top: 1px solid #d6dee7;
   border-bottom: 1px solid #d6dee7;
   padding: 70px 0 120px;
@@ -352,6 +352,9 @@ nav ul li a:hover {
 
 #recent_games h2 {
   text-align: center;
+}
+#recent_games h2 span {
+  color: #ffb320;
 }
 
 #recent_games .box {
@@ -455,7 +458,8 @@ nav ul li a:hover {
 
 /* recent reviews styles */
 #recent_reviews {
-  background: url(../images/106141.jpg) top right no-repeat;
+  /* background: url(../images/1314758.jpg) top right no-repeat; */
+  background-color: #252525;
   background-size: cover;
   padding: 75px 0 30px;
 }
@@ -464,13 +468,22 @@ nav ul li a:hover {
   text-align: center;
   margin-bottom: 1.65em;
 }
-
+#recent_reviews h1 span {
+  color: #ffb320;
+}
 #recent_reviews .box {
   flex-basis: 23%;
   position: relative;
   text-align: center;
 
   /* padding: 20px; */
+}
+#recent_reviews .flex .box .content h4 {
+  color: #ffb320;
+}
+.recent-images {
+  width: 100px;
+  height: 150px;
 }
 
 #recent_reviews .box .rating_badge {
@@ -864,11 +877,11 @@ nav ul li a:hover {
     line-height: 1.5rem;
   }
   #recent_games {
-    background: url(../images/510365.jpg);
+    background: url(../images/1314758.jpg);
     min-height: 600px;
     /* border: 2px solid red; */
   }
-  #recent_games h2 span {
+  #recent_games h2 {
     color: #ffb320;
   }
   #recent_games .flex {
