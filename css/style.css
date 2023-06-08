@@ -352,6 +352,7 @@ nav ul li a:hover {
 
 #recent_games h2 {
   text-align: center;
+  color: #eee;
 }
 #recent_games h2 span {
   color: #ffb320;
@@ -386,7 +387,10 @@ nav ul li a:hover {
   color: #999;
   font-size: 0.8em;
 }
-
+.racing-img {
+  width: auto;
+  height: 200px;
+}
 /* End recent games styles */
 
 /* tournament styles */
@@ -467,6 +471,7 @@ nav ul li a:hover {
 #recent_reviews h1 {
   text-align: center;
   margin-bottom: 1.65em;
+  color: #eee;
 }
 #recent_reviews h1 span {
   color: #ffb320;
