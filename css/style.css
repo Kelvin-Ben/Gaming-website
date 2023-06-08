@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin: 0;
 }
 
@@ -671,7 +671,6 @@ nav ul li a:hover {
   color: #f92159;
 }
 
-
 /* End post comments styles */
 
 /* start footer styles */
@@ -940,7 +939,7 @@ nav ul li a:hover {
 
   .footer .flex p {
     font-size: 14px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
   }
 
   #post_comments .game_warrior p {
