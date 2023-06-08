@@ -18,7 +18,7 @@ This is a website dedicated to gaming, where users can view a list of games, rea
 - Responsive design
 
 ## Live Demo
-  will be available [soon]()
+  Check out the project [here](https://experience-gaming.netlify.app/)
 ## Installation
 
 - All the `code` required to get started
