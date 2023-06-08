@@ -4,6 +4,8 @@
 
 This is a website dedicated to gaming, where users can view a list of games, read reviews, and participate in discussions through posts and comments. The website is built using HTML and CSS, and is designed to be intuitive and easy to navigate.
 
+![gaming](https://github.com/Kelvin-Ben/Gaming-website/assets/85459676/b04902ba-70f7-467a-be9d-b99e821f3539)
+
 ### Features:
 
 - View a list of games with brief descriptions and ratings
