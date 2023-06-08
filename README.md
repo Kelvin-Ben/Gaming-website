@@ -22,8 +22,6 @@ This is a website dedicated to gaming, where users can view a list of games, rea
 
 ## Live Demo
 
-will be available [soon]()
-
 ## Installation
 
 - All the `code` required to get started
@@ -31,7 +29,7 @@ will be available [soon]()
 
 ### Clone
 
-- Clone this repo to your local machine using ``
+- Clone this repo to your local machine using ```git clone git@github.com:Kelvin-Ben/Gaming-website.git```
 
 ### Setup
 
