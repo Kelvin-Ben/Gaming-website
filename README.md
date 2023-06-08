@@ -20,9 +20,10 @@ This is a website dedicated to gaming, where users can view a list of games, rea
 - HTML/CSS
 - Responsive design
 
-## Live Demo
-
-## Installation
+### Live Demo
+  Check out the project [here](https://experience-gaming.netlify.app/)
+  
+### Installation
 
 - All the `code` required to get started
 - Images of what it should look like
